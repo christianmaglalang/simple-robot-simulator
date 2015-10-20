@@ -1,0 +1,43 @@
+Example Input and Output:
+a)
+	PLACE 0,0,NORTH
+	MOVE
+	REPORT
+	Output: 0,1,NORTH
+b)
+	PLACE 0,0,NORTH
+	LEFT
+	REPORT
+	Output: 0,0,WEST
+c)
+	PLACE 1,2,EAST
+	MOVE
+	MOVE
+	LEFT
+	MOVE
+	REPORT
+	Output: 3,3,NORTH
+
+d)
+	PLACE 1,1,NORTH
+	RIGHT
+	MOVE
+	REPORT
+	Output: 2,1,EAST
+
+e)
+	PLACE 0,3,WEST
+	END
+
+f)
+	PLACE 4,4,NORTH
+	MOVE
+	Output: Robot will fall
+
+g)
+	PLACE 5,5,SOUTH
+	Output: Invalid place parameters. Try again.
+
+h)
+	PLACE 3,3,AWEF
+	Output: Invalid place parameters. Try again.	
